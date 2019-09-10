@@ -8,14 +8,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/DKMitt/burger.git"
+    "url": "https://github.com/matthewg23/Burger-app"
   },
   "author": "D K Mittlestaedt",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/DKMitt/burger/issues"
+    "url": "https://github.com/matthewg23/Burger-app/issues"
   },
-  "homepage": "https://github.com/DKMitt/burger#readme",
+  "homepage": "https://github.com/matthewg23/Burger-app",
   "dependencies": {
     "body-parser": "^1.17.1",
     "express": "^4.15.2",
