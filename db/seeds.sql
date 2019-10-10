@@ -1,16 +1,3 @@
-INSERT INTO burgers (
-burger_name,
-devoured
-) VALUES
-(
-"Beef Double Cheese Burger",
-0
-),
-(
-"Patty Melt Burger",
-0
-),
-(
-"Mushroom & Swiss Double Cheese Burger",
-0
-);
+INSERT INTO burgers (burger_name, devoured) VALUES ('Cheese Burger', FALSE);
+INSERT INTO burgers (burger_name, devoured) VALUES ('Hamburger', FALSE);
+INSERT INTO burgers (burger_name, devoured) VALUES ('Pizza Burger', FALSE);
