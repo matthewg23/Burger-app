@@ -1,26 +1,27 @@
 {
-  "name": "burger",
+  "name": "burger-app",
   "version": "1.0.0",
-  "description": "Restaurant App",
+  "description": "Eat-Da-Burger! is a restaurant app that lets users input the names of burgers they'd like to eat. Whenever a user submits a burger's name, your app will display the burger on the left side of the page -- waiting to be devoured. Each burger in the waiting area also has a Devour it! button. When the user clicks it, the burger will move to the right side of the page. Your app will store every burger in a database, whether devoured or not.",
   "main": "server.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/matthewg23/Burger-app"
+    "url": "git+https://github.com/matthewg23/Burger-app.git"
   },
   "author": "",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/matthewg23/Burger-app/issues"
   },
-  "homepage": "https://github.com/matthewg23/Burger-app",
+  "homepage": "https://github.com/matthewg23/Burger-app#readme",
   "dependencies": {
-    "body-parser": "^1.17.1",
-    "express": "^4.15.2",
-    "express-handlebars": "^3.0.0",
-    "method-override": "^2.3.8",
-    "mysql": "^2.13.0"
+    "body-parser": "^1.19.0",
+    "express": "^4.17.1",
+    "express-handlebars": "^3.1.0",
+    "method-override": "^3.0.0",
+    "mysql": "^2.17.1"
   }
 }
